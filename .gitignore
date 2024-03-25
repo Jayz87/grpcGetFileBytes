@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/FileBytesService/bin/Debug/net7.0
+/FileBytesService/obj
+/GetFileBytes/.vs
+/GetFileBytes/bin/Debug/net7.0
+/GetFileBytes/obj
+/GrpcFileService/bin/Debug/net7.0
+/GrpcFileService/obj
