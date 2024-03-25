@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcFileService";
+
+service FileReaderService{
+rpc GetFileBytes(GetFileBytesRequest) returns (stream GetFileBytesResponse) {}
+}
+
+message GetFileBytesRequest {
+string input_string = 1;
+}
+
+message GetFileBytesResponse {
+bytes data = 1;
+}
